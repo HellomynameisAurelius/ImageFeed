@@ -39,11 +39,16 @@
                                                 </imageView>
                                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uni-2z-RnS" userLabel="Like button">
                                                     <rect key="frame" x="333" y="4" width="44" height="44"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" constant="44" id="Aau-jo-YKq"/>
+                                                        <constraint firstAttribute="width" secondItem="uni-2z-RnS" secondAttribute="height" multiplier="1:1" id="dAQ-o6-kuF"/>
+                                                        <constraint firstAttribute="height" constant="44" id="fLH-Xz-P84"/>
+                                                    </constraints>
                                                     <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                     <state key="normal" image="like_button_on"/>
                                                 </button>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="9 мая 2023" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cX3-1G-dRD" userLabel="Date Label">
-                                                    <rect key="frame" x="24" y="196.33333333333334" width="170" height="15.666666666666657"/>
+                                                    <rect key="frame" x="24" y="195.33333333333334" width="71" height="16.666666666666657"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="13"/>
                                                     <color key="textColor" name="YP White"/>
                                                     <nil key="highlightedColor"/>
@@ -52,7 +57,7 @@
                                             <color key="backgroundColor" name="YP Black"/>
                                             <constraints>
                                                 <constraint firstItem="Fe9-kL-kqV" firstAttribute="bottom" secondItem="cX3-1G-dRD" secondAttribute="bottom" constant="8" id="Glb-zc-dwr"/>
-                                                <constraint firstItem="Fe9-kL-kqV" firstAttribute="trailing" secondItem="cX3-1G-dRD" secondAttribute="trailing" constant="183" id="NRm-Xd-BgD"/>
+                                                <constraint firstItem="Fe9-kL-kqV" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="cX3-1G-dRD" secondAttribute="trailing" constant="8" id="NRm-Xd-BgD"/>
                                                 <constraint firstItem="Fe9-kL-kqV" firstAttribute="leading" secondItem="bRh-db-GYi" secondAttribute="leading" constant="16" id="UIR-iv-wix"/>
                                                 <constraint firstItem="cX3-1G-dRD" firstAttribute="leading" secondItem="Fe9-kL-kqV" secondAttribute="leading" constant="8" id="XCS-Tj-GxV"/>
                                                 <constraint firstItem="uni-2z-RnS" firstAttribute="top" secondItem="Fe9-kL-kqV" secondAttribute="top" id="ep2-cp-R7I"/>
