@@ -42,7 +42,6 @@
                                                     <constraints>
                                                         <constraint firstAttribute="width" constant="44" id="Aau-jo-YKq"/>
                                                         <constraint firstAttribute="width" secondItem="uni-2z-RnS" secondAttribute="height" multiplier="1:1" id="dAQ-o6-kuF"/>
-                                                        <constraint firstAttribute="height" constant="44" id="fLH-Xz-P84"/>
                                                     </constraints>
                                                     <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                     <state key="normal" image="like_button_on"/>
