@@ -164,7 +164,7 @@
                                 </connections>
                             </scrollView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mcP-6P-2fc" userLabel="Share Button">
-                                <rect key="frame" x="171.66666666666666" y="766" width="50" height="50"/>
+                                <rect key="frame" x="171.66666666666666" y="751" width="50" height="50"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="mcP-6P-2fc" secondAttribute="height" multiplier="1:1" id="Qt1-zt-rKp"/>
                                     <constraint firstAttribute="width" constant="50" id="VEA-27-ZAd"/>
@@ -192,12 +192,12 @@
                         <color key="backgroundColor" name="ypBlack"/>
                         <constraints>
                             <constraint firstAttribute="top" secondItem="sae-ru-LjS" secondAttribute="top" id="0xB-2w-0DY"/>
-                            <constraint firstItem="mcP-6P-2fc" firstAttribute="centerX" secondItem="c5J-th-lLk" secondAttribute="centerX" id="0zE-6G-3uh"/>
+                            <constraint firstItem="mcP-6P-2fc" firstAttribute="centerX" secondItem="OIw-4j-6m3" secondAttribute="centerX" id="0zE-6G-3uh"/>
                             <constraint firstAttribute="trailing" secondItem="sae-ru-LjS" secondAttribute="trailing" id="DMW-IU-2ax"/>
                             <constraint firstItem="OwO-Cn-87T" firstAttribute="top" secondItem="c5J-th-lLk" secondAttribute="top" constant="8" id="GAc-n8-FT7"/>
                             <constraint firstAttribute="bottom" secondItem="sae-ru-LjS" secondAttribute="bottom" id="Kiz-j3-iCm"/>
                             <constraint firstAttribute="leading" secondItem="sae-ru-LjS" secondAttribute="leading" id="S16-7U-qcn"/>
-                            <constraint firstItem="c5J-th-lLk" firstAttribute="bottom" secondItem="mcP-6P-2fc" secondAttribute="bottom" constant="36" id="efe-gW-1gw"/>
+                            <constraint firstAttribute="bottom" secondItem="mcP-6P-2fc" secondAttribute="bottom" constant="51" id="efe-gW-1gw"/>
                             <constraint firstItem="OwO-Cn-87T" firstAttribute="leading" secondItem="c5J-th-lLk" secondAttribute="leading" constant="8" id="eql-qp-9Z1"/>
                         </constraints>
                     </view>
