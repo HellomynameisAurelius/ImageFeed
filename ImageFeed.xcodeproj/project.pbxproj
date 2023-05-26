@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3C2E0FFB2A20532C00CB1B39 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C2E0FFA2A20532C00CB1B39 /* Constants.swift */; };
 		3C4AC7692A0A669100339321 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C4AC7682A0A669100339321 /* AppDelegate.swift */; };
 		3C4AC76B2A0A669100339321 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C4AC76A2A0A669100339321 /* SceneDelegate.swift */; };
 		3C4AC76D2A0A669100339321 /* ImagesListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C4AC76C2A0A669100339321 /* ImagesListViewController.swift */; };
@@ -20,6 +21,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3C2E0FFA2A20532C00CB1B39 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		3C4AC7652A0A669100339321 /* ImageFeed.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ImageFeed.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C4AC7682A0A669100339321 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3C4AC76A2A0A669100339321 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -66,6 +68,7 @@
 			children = (
 				3C4AC7682A0A669100339321 /* AppDelegate.swift */,
 				3C4AC76A2A0A669100339321 /* SceneDelegate.swift */,
+				3C2E0FFA2A20532C00CB1B39 /* Constants.swift */,
 				3C9F790B2A0E9995007F13C9 /* Profile */,
 				3C4AC7812A0A83FE00339321 /* ImagesList */,
 				3CF73C932A0FB7FC00AAAA9D /* SingleImageView */,
@@ -189,6 +192,7 @@
 				3C4AC7802A0A83D000339321 /* ImagesListCell.swift in Sources */,
 				3C4AC76B2A0A669100339321 /* SceneDelegate.swift in Sources */,
 				3C4AC77D2A0A7BEC00339321 /* UIColor+Extensions.swift in Sources */,
+				3C2E0FFB2A20532C00CB1B39 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
