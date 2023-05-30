@@ -124,19 +124,27 @@
                                     <action selector="didTapBackButton:" destination="Xev-gK-3Yn" eventType="touchUpInside" id="8gD-Gs-kRG"/>
                                 </connections>
                             </button>
+                            <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" progress="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="B2T-TW-wca">
+                                <rect key="frame" x="0.0" y="40" width="393" height="4"/>
+                                <color key="progressTintColor" name="ypBlack"/>
+                            </progressView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="RuB-so-P62"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="v0H-ox-697" firstAttribute="top" secondItem="CWu-x8-g7F" secondAttribute="top" id="0k2-or-bjC"/>
+                            <constraint firstItem="B2T-TW-wca" firstAttribute="leading" secondItem="CWu-x8-g7F" secondAttribute="leading" id="9MO-Re-lvk"/>
                             <constraint firstItem="v0H-ox-697" firstAttribute="leading" secondItem="CWu-x8-g7F" secondAttribute="leading" id="FzT-6u-vGH"/>
+                            <constraint firstAttribute="trailing" secondItem="B2T-TW-wca" secondAttribute="trailing" id="IN7-Bs-4jc"/>
                             <constraint firstItem="v97-wt-Mpn" firstAttribute="top" secondItem="RuB-so-P62" secondAttribute="top" id="Nzl-Td-lJL"/>
+                            <constraint firstItem="B2T-TW-wca" firstAttribute="top" secondItem="RuB-so-P62" secondAttribute="top" constant="40" id="g0C-eb-4qq"/>
                             <constraint firstAttribute="trailing" secondItem="v0H-ox-697" secondAttribute="trailing" id="gdo-zu-ruk"/>
                             <constraint firstAttribute="bottom" secondItem="v0H-ox-697" secondAttribute="bottom" id="hjq-4U-81S"/>
                             <constraint firstItem="v97-wt-Mpn" firstAttribute="leading" secondItem="RuB-so-P62" secondAttribute="leading" id="jbM-BY-stm"/>
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="progressView" destination="B2T-TW-wca" id="sRH-Ev-mvk"/>
                         <outlet property="webView" destination="v0H-ox-697" id="Vwz-A4-AFi"/>
                     </connections>
                 </viewController>
